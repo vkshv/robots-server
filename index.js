@@ -2,7 +2,6 @@ const express = require('express')
 const cors = require('cors')
 require('dotenv').config()
 
-const { STATUS_CODE, STATUS_TEXT } = require('./const/http')
 const { PORT } = require('./config')
 
 const app = express()
